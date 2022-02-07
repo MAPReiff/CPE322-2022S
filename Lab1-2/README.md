@@ -1635,6 +1635,7 @@ unix  3      [ ]         STREAM     CONNECTED     30006    /run/systemd/journal/
 
 ### neofetch
 On my host system
+
 ![](assets/neofetch1.png)
 
 On a remote system (from the SSH example)
