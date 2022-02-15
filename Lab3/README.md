@@ -49,12 +49,13 @@ On my Raspberry Pi
 As a basic exercise, I decided to write a [Python script](systemInfo.py) that displays some basic system information including stats about the CPU system memory, SWAP, disk, and battery. I based this of the [cpu.py](https://github.com/kevinwlu/iot/blob/master/lesson3/cpu.py) example from the class repository utilizing [psutil](https://pypi.org/project/psutil/).
 
 
-On my laptop
+### On my laptop
 ![](assets/systemInfo_laptop.png)
 
-On my desktop
+### On my desktop
 ![](assets/systemInfo_pc.png)
 
-On my Raspberry Pi
+### On my Raspberry Pi
 ![](assets/systemInfo_pi.png)
+
 Despite SWAP being enabled and functional on the Pi, the stats reported using `psutil` regarding the current SWAP usage are incorrect and do not match what is reported by `htop` or `free -h`. This might be due to how little SWAP space is allocated on the Pi (100 MiB) compared to my desktop (17 GiB) or laptop (8 GiB).
