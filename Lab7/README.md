@@ -30,7 +30,7 @@ As I am doing this assignment on my PC and not a Raspberry Pi, I am using the `c
 
 ## Extra
 
-In the instructions for the Google Sheets part of the lab, it says that we need to delete rows 2 - 1000 before we start the script as it is designed to append data to the sheet, rather than check for the next empty row. I have mad modifications to [cpu_spreadsheet.py](./cpu_spreadsheet.py) to account for this.
+In the instructions for the Google Sheets part of the lab, it says that we need to delete rows 2 - 1000 before we start the script as it is designed to append data to the sheet, rather than check for the next empty row. I have made modifications to [cpu_spreadsheet.py](./cpu_spreadsheet.py) to account for this.
 
 To do this, I implemented two functions. The first is based on one that I found on a [Stack Overlow post](https://stackoverflow.com/questions/40781295/how-to-find-the-first-empty-row-of-a-google-spread-sheet-using-python-gspread/42476314#42476314) which helps me find the last row of the sheet that was filled in. The second is one that finds the total number of rows in the sheet.
 ```py
