@@ -55,4 +55,4 @@ else:
   worksheet.append_row((str(dat), cpu, mem))
 ```
 
-With these modifications, the need to delete all of the empty pre generated rows is alleviated, while accounting for a user running out of rows! I have also made this modification to the ![rpi_spreadsheet.py](./rpi_spreadsheet.py) script.
+With these modifications, the need to delete all of the empty pre generated rows is alleviated, while accounting for a user running out of rows! I have also made this modification to the [rpi_spreadsheet.py](./rpi_spreadsheet.py) script.
